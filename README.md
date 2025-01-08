@@ -71,5 +71,13 @@ For a `dashboard` folder:
 
 ---
 
-For more information on Next.js, visit the [official Next.js documentation](https://nextjs.org/docs).
+## Server side Generation(SSG)
+- It generates HTML data only at built-time not on the request of a user.
 
+## Revalidation
+- Updates components or a condition(like api fetching) after a specific time.
+- For example : {revalidate : 3600} will update after 1 hour.
+
+## Pre-Partial Rendering
+- It renders some part of data in the component and make a layout for non-loaded data.
+- We can have static,dynamic and partial static and dynamic data.
