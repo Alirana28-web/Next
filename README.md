@@ -32,9 +32,9 @@ In **SSR**, the server generates the full HTML for the page before sending it to
 ---
 
 ## "use client" Directive
-The `"use client"` directive is used to render client-side components in the browser, ensuring dynamic interactivity where needed.
-Event Handling: Buttons, forms, modals, and other interactive UI elements need client-side JavaScript to handle events like onClick, onSubmit, etc.
-State Management: Dynamic behavior requiring hooks like useState or useEffect can only work in Client Components.
+- The `"use client"` directive is used to render client-side components in the browser, ensuring dynamic interactivity where needed.
+- **Event Handling**: Buttons, forms, modals, and other interactive UI elements need client-side JavaScript to handle events like onClick, onSubmit, etc.
+- **State Management**: Dynamic behavior requiring hooks like useState or useEffect can only work in Client Components.
 ---
 
 ## Routing
